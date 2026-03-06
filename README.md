@@ -226,8 +226,9 @@ API_KEY=your_api_key
 DATABASE_URL=your_database_url
 ```
 
-#### 4. Run the Development Server
-'''bash
+#### 4. Run Tests
+Bash
+
 pytest
 
 
