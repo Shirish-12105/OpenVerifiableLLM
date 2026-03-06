@@ -195,25 +195,35 @@ TODO: Provide detailed setup instructions
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AOSSIE-Org/TODO.git
+git clone
+https://github.com/AOSSIE-Org/TODO.git
 cd TODO
 ```
 
 #### 2. Install Dependencies
 
-'''bash
+```bash
 python -m venv venv
-'''
+```
 # Activate environment
 
-Windows:
-venv\Scripts\activate
+***Windows***
 
-Linux/Mac:
+```bash
+venv\Scripts\activate
+```
+
+**Linux/Mac**
+
+```bash
 source venv/bin/activate
-#  Install dependencies
-pip intsall -r requirments.txt
-'''
+```
+
+### Install dependencies
+
+```bash
+pip install .
+```
 
 
 #### 3. Configure Environment Variables(.env.example)
@@ -227,14 +237,15 @@ DATABASE_URL=your_database_url
 ```
 
 #### 4. Run Tests
-Bash
-
+```bash
 pytest
+```
 
 
 #### 5. Open your Browser
 
-Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+Navigate to http://localhost:3000](http://localhost:3000) to see the 
+application.
 
 For detailed setup instructions, please refer to our [Installation Guide](./docs/INSTALL_GUIDE.md) (if you have one).
 
