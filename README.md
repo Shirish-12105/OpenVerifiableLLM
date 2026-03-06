@@ -201,13 +201,16 @@ cd TODO
 
 #### 2. Install Dependencies
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+'''bash
+python -m venv venv
+'''
+Activate environment
+
+Windows:
+venv\Scripts\activate
+
+Linux/Mac:
+source venv/bin/activate
 
 #### 3. Configure Environment Variables(.env.example)
 
@@ -220,14 +223,7 @@ DATABASE_URL=your_database_url
 ```
 
 #### 4. Run the Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+pytest
 
 #### 5. Open your Browser
 
